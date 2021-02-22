@@ -26,9 +26,9 @@ public class CartAdapter extends RecyclerView.Adapter {
         TextView productName, productPrice, quantity;
         public MyHolderView(@NonNull View itemView) {
             super(itemView);
-            productName = itemView.findViewById(R.id.productNameTextView);
+          /*  productName = itemView.findViewById(R.id.productNameTextView);
             productPrice = itemView.findViewById(R.id.productPriceTextView);
-            quantity = itemView.findViewById(R.id.quantityTextView);
+            quantity = itemView.findViewById(R.id.quantityTextView);*/
         }
     }
 
